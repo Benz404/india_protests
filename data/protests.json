@@ -1,0 +1,647 @@
+{
+  "records": [
+    {
+      "id": "new-delhi-ramlila-maidan-2026-11",
+      "title": "New Delhi — Ramlila Maidan",
+      "start": "2026-11",
+      "end": "2026-11",
+      "date_label": "Today · Nov 1, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.65,
+        "lon": 77.24
+      },
+      "intensity": 3,
+      "status": "ongoing",
+      "groups": [
+        "opposition"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "The INDIA bloc’s “Save the Vote, Save the Country” rally demands the resignation of Chief Election Commissioner Gyanesh Kumar.",
+      "background": "Anger over the Special Intensive Revision (SIR) of electoral rolls, which has struck millions of names off voter lists, and over alleged irregularities. It follows a September Indian Express report on divisions inside the Election Commission.",
+      "status_text": "The march runs from the Minto Road–Connaught Place junction to Ramlila Maidan, led by Rahul Gandhi with Akhilesh Yadav and other opposition leaders. Congress is targeting a turnout of one million. Around 10,000 security personnel and 250 CCTV cameras are deployed, and thousands from across North India have already gathered. The Commission rejects the allegations.",
+      "response": "The Election Commission rejects the allegations and says the revision order was approved unanimously by the full Commission, pointing to court proceedings. The BJP calls the rally “political drama”, objected to its date near Diwali, and is running its own campaign against the opposition’s claims.",
+      "sources": [
+        {
+          "title": "Outlook India — live updates",
+          "url": "https://www.outlookindia.com/national/india-bloc-protest-live-updates-november-1-anti-sir-march-rahul-gandhi-opposition-cec-gyanesh-kumar-cjp-dipke-neha-bora"
+        },
+        {
+          "title": "Outlook India — security",
+          "url": "https://www.outlookindia.com/national/delhi-india-bloc-protest-10000-security-personnel-gyanesh-kumar"
+        },
+        {
+          "title": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/india-s-protest-movements-unite-in-fresh-headache-for-modi"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "arunachal-pradesh-siang-dam-2026-10",
+      "title": "Arunachal Pradesh — Siang dam",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 23–25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Arunachal Pradesh",
+        "state": "Arunachal Pradesh",
+        "lat": 28.1,
+        "lon": 95.1
+      },
+      "intensity": 5,
+      "status": "unknown",
+      "groups": [
+        "environment"
+      ],
+      "topics": "Environment · Land",
+      "summary": "Protesters clashed with police over the proposed 11,200 MW Siang Upper Multipurpose Project.",
+      "background": "The state-run NHPC dam is meant to counter a large Chinese hydropower project upstream in Tibet. Local communities fear losing their homes and land and oppose it strongly.",
+      "status_text": "Violence broke out late on Friday, Oct 23. About 40 police personnel were injured by stones, and police fired tear gas. The NHPC office and a police station were vandalised and several elected representatives’ homes were ransacked, according to Chief Minister Pema Khandu, who urged dialogue instead of violence.",
+      "response": "India says the dam is needed to counter China’s upstream Yaxia project and to store water and maintain flows into the Brahmaputra. The Chief Minister urged dialogue instead of violence.",
+      "sources": [
+        {
+          "title": "Express Tribune / AFP",
+          "url": "https://tribune.com.pk/story/2636849/protesters-clash-with-police-over-india-dam-project-bordering-china"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-kisan-agitation-2026-11",
+      "title": "Nationwide — Kisan agitation",
+      "start": "2026-11",
+      "end": "2026-11",
+      "date_label": "Starts Nov 26, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 29.05,
+        "lon": 77.55
+      },
+      "intensity": 2,
+      "status": "planned",
+      "groups": [
+        "farmers",
+        "workers"
+      ],
+      "topics": "Farmers · Workers",
+      "summary": "The Samyukt Kisan Morcha plans a multi-day nationwide agitation starting Nov 26.",
+      "background": "A seven-point charter of demands from farmers’ groups and trade unions, covering issues such as MSP, job security and corporate influence in agriculture.",
+      "status_text": "Planned mass action at about 100 spots including the national capital, with the form and exact places still to be announced. SKM says it will not call off the protest until all principal demands are met, and its workers have already joined the voter-roll protests in Delhi.",
+      "sources": [
+        {
+          "title": "Deccan Chronicle / Bloomberg",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/the-farmers-coalition-join-widening-protests-over-voter-roll-revamp-1998218"
+        },
+        {
+          "title": "Indian Awaaz",
+          "url": "https://theindianawaaz.com/skm-announces-nationwide-farmers-agitation-sets-7-point-charter-of-demands/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "ranchi-jharkhand-jpsc-jssc-exam-protest-2026-07",
+      "title": "Ranchi, Jharkhand — JPSC-JSSC exam protest",
+      "start": "2026-07",
+      "end": "2026-08",
+      "date_label": "Late Jul – Aug 19, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Ranchi, Jharkhand",
+        "state": "Jharkhand",
+        "lat": 23.35,
+        "lon": 85.33
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Students and job aspirants camped in Ranchi for about three and a half weeks over alleged paper leaks and irregularities in JPSC and JSSC recruitment exams.",
+      "background": "Anger over the 14th JPSC prelims, the JSSC-CGL exam and other recruitment tests. The JPSC-JSSC Reforms Manch demanded cancellations and a CBI probe, and some protesters also asked for the Chief Minister’s resignation.",
+      "status_text": "Several students went on hunger strike. On Aug 10 a march to the Assembly met water cannons and tear gas, and the BJP called a statewide bandh the next day. The government cancelled three JPSC exams, then the 2024 JSSC-CGL and all TDPL exams (22 exams in all), ordered CID and ED probes, and three PSC members resigned. The agitation was called off on Aug 19, but the CBI probe demand is still unresolved and students reportedly gave the government a two-month ultimatum. I haven’t checked what has happened since.",
+      "response": "The state government favoured dialogue, held talks, cancelled the exams and ordered CID and ED probes. The BJP, the opposition in the state, demanded a CBI probe and questioned the impartiality of the investigation.",
+      "sources": [
+        {
+          "title": "All India Radio",
+          "url": "https://newsonair.gov.in/jharkhand-students-end-jpsc-jssc-agitation-after-govt-cancels-22-exams/"
+        },
+        {
+          "title": "Outlook India",
+          "url": "https://www.outlookindia.com/national/jharkhand-student-protesters-reach-assembly-gates-after-facing-tear-gas-water-cannons"
+        },
+        {
+          "title": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/08/18/jharkhand-jssc-cgl-cancellation-mahto-ends-fast.amp.html"
+        },
+        {
+          "title": "Amar Ujala (Hindi)",
+          "url": "https://www.amarujala.com/jharkhand/ranchi/jpsc-jssc-student-protest-ends-jharkhand-2-month-ultimatum-cbi-probe-ranchi-2026-08-19"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-election-commission-2026-10",
+      "title": "New Delhi — Election Commission",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 5–10, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.6,
+        "lon": 77.22
+      },
+      "intensity": 3,
+      "status": "unknown",
+      "groups": [
+        "opposition",
+        "students"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "Opposition leaders and a youth movement protested against Chief Election Commissioner Gyanesh Kumar.",
+      "background": "A September Indian Express report said the Commission’s own deputies had questioned and disagreed with Kumar, amid the voter-roll revision.",
+      "status_text": "Rahul Gandhi and opposition lawmakers staged a sit-in near the Commission’s office and were detained on consecutive days. Delhi was sealed off ahead of a large youth “Save Democracy” march on Oct 10.",
+      "response": "The Election Commission rejects the allegations, and BJP leaders say the opposition has no basis for its protest.",
+      "sources": [
+        {
+          "title": "Express Tribune / Reuters",
+          "url": "https://tribune.com.pk/story/2633522/rahul-gandhi-indian-opposition-lawmakers-detained-over-election-chief-protest-for-second-day"
+        },
+        {
+          "title": "ARY / Reuters",
+          "url": "https://arynews.tv/delhi-sealed-off-ahead-of-youth-protest-against-indian-election-chief"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "mumbai-2026-10",
+      "title": "Mumbai",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 2026",
+      "scope": "local",
+      "location": {
+        "name": "Mumbai",
+        "state": "Maharashtra",
+        "lat": 19.08,
+        "lon": 72.88
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "civil"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "Thousands marched waving national flags on the third day of protests against the election chief.",
+      "background": "Part of the same wave triggered by the Indian Express report on the Election Commission.",
+      "status_text": "The march was reported as peaceful, with large crowds on the Sunday.",
+      "sources": [
+        {
+          "title": "Kuwait Times",
+          "url": "https://kuwaittimes.com/article/50916/world/indians-protest-for-third-day-against-election-chief/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-march-to-election-commission-2026-10",
+      "title": "New Delhi — march to Election Commission",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 23, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.55,
+        "lon": 77.3
+      },
+      "intensity": 2,
+      "status": "unknown",
+      "groups": [
+        "farmers",
+        "students",
+        "civil"
+      ],
+      "topics": "Farmers · Students",
+      "summary": "Hundreds, including Samyukt Kisan Morcha workers, students and left groups, tried to march towards the Election Commission.",
+      "background": "Farmers’ groups joined the widening protests over the voter-roll revamp.",
+      "status_text": "SKM is also preparing a larger agitation from Nov 26.",
+      "sources": [
+        {
+          "title": "Deccan Chronicle / Bloomberg",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/the-farmers-coalition-join-widening-protests-over-voter-roll-revamp-1998218"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-paper-leak-protest-2026-08",
+      "title": "New Delhi — paper-leak protest",
+      "start": "2026-08",
+      "end": "2026-08",
+      "date_label": "Aug 25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.7,
+        "lon": 77.15
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "students"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Police used water cannon at a fresh protest over test-paper leaks.",
+      "background": "Continuing anger over repeated exam paper leaks.",
+      "status_text": "Reported on Aug 25, 2026.",
+      "sources": [
+        {
+          "title": "Express Tribune",
+          "url": "https://tribune.com.pk/story/2625813/indian-police-use-water-cannon-at-new-protest-over-test-paper-leaks"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-aug-10-protest-day-himachal-shown-2026-08",
+      "title": "Nationwide — Aug 10 protest day (Himachal shown)",
+      "start": "2026-08",
+      "end": "2026-08",
+      "date_label": "Aug 10, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 31.1,
+        "lon": 77.17
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "farmers",
+        "workers"
+      ],
+      "topics": "Farmers · Workers",
+      "summary": "Farmers’ and workers’ groups held a nationwide protest day with Jail Bharo, Rasta Roko and Rail Roko actions.",
+      "background": "A call by the Samyukt Kisan Morcha and central trade unions over agrarian and labour policies, a build-up to the Nov 26 agitation.",
+      "status_text": "In Himachal Pradesh, protests were planned at about 25 locations. The map shows Himachal as one example of a nationwide action.",
+      "sources": [
+        {
+          "title": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/headlines/3961679-himachals-unified-front-farmers-and-workers-gear-up-for-nationwide-protest"
+        },
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/news/aiks-calls-for-mass-farmer-protests-on-august-10"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-neet-march-to-parliament-2026-07",
+      "title": "New Delhi — NEET march to Parliament",
+      "start": "2026-07",
+      "end": "2026-07",
+      "date_label": "Jul 20, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 29.2,
+        "lon": 77
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Protesters marching to Parliament over alleged NEET exam irregularities were baton-charged.",
+      "background": "Anger over alleged NEET irregularities, directed at the Education Minister.",
+      "status_text": "Police used batons on the march on July 20, 2026.",
+      "sources": [
+        {
+          "title": "Kuwait Times / AFP",
+          "url": "https://kuwaittimes.com/article/46753/world/indian-police-baton-charge-protesters-marching-to-parliament/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "thiruvananthapuram-2026-06",
+      "title": "Thiruvananthapuram",
+      "start": "2026-06",
+      "end": "2026-06",
+      "date_label": "Jun 25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Thiruvananthapuram",
+        "state": "Kerala",
+        "lat": 8.52,
+        "lon": 76.95
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "opposition"
+      ],
+      "topics": "Local politics",
+      "summary": "An LDF protest at the city corporation turned into a scuffle; the Mayor was among those injured.",
+      "background": "Local political confrontation inside the municipal body.",
+      "status_text": "Reported by The Indian Express on Jun 25, 2026.",
+      "sources": [
+        {
+          "title": "The Indian Express",
+          "url": "https://indianexpress.com"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-congress-headquarters-2026-02",
+      "title": "New Delhi — Congress headquarters",
+      "start": "2026-02",
+      "end": "2026-02",
+      "date_label": "Feb 21, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "ruling"
+      ],
+      "topics": "Party politics",
+      "summary": "Delhi BJP protested outside the Congress headquarters over a Youth Congress ruckus at the India-AI Impact Summit.",
+      "background": "A dispute over Indian Youth Congress workers’ disruption at the summit the day before.",
+      "status_text": "Led by Delhi BJP president Virendra Sachdeva and MP Manoj Tiwari.",
+      "sources": [
+        {
+          "title": "All India Radio",
+          "url": "https://www.newsonair.gov.in/bjp-protests-outside-congress-headquarters-over-youth-congress-ruckus-at-india-ai-impact-summit"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "bengaluru-bjp-protest-at-freedom-park-2026-10",
+      "title": "Bengaluru — BJP protest at Freedom Park",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 26, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Bengaluru",
+        "state": "Karnataka",
+        "lat": 12.97,
+        "lon": 77.59
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "ruling"
+      ],
+      "topics": "Party politics",
+      "summary": "BJP leaders and workers protested against Congress president Mallikarjun Kharge’s remark about the Prime Minister and demanded a public apology.",
+      "background": "The BJP objected to Kharge’s remarks about Narendra Modi’s father.",
+      "status_text": "The protest was led by Karnataka’s Leader of Opposition R Ashoka. Some BJP leaders were detained by police.",
+      "response": "Congress’s response is not in the report I found.",
+      "sources": [
+        {
+          "title": "Siasat / PTI",
+          "url": "https://www.siasat.com/bjp-seeks-kharges-public-apology-over-modis-father-remarks-3564920/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-bjp-save-democracy-remove-anarchy-campaign-2026-10",
+      "title": "New Delhi — BJP “Save Democracy, Remove Anarchy” campaign",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 26–30, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.8,
+        "lon": 77.1
+      },
+      "intensity": 1,
+      "status": "ongoing",
+      "groups": [
+        "ruling",
+        "civil"
+      ],
+      "topics": "Party politics · Traders",
+      "summary": "The BJP launched a campaign to counter the Congress’s claims on the voter-roll revision, including a Chandni Chowk march planned for Oct 28 and a statewide campaign in Rajasthan from Oct 30.",
+      "background": "The BJP says the opposition’s allegations about the Special Intensive Revision and the Election Commission are misleading, and has prepared a document rebutting them.",
+      "status_text": "Separately, traders protested at Kashmere Gate on Oct 26, asking the Congress to postpone its Nov 1 rally until after Diwali. I have not confirmed that the Oct 28 march took place.",
+      "response": "The opposition says the revision strikes eligible voters off the rolls and wants the Chief Election Commissioner to resign.",
+      "sources": [
+        {
+          "title": "Dynamite News",
+          "url": "https://www.dynamitenews.com/national/save-democracy-remove-anarchy-bjp-steps-up-sir-campaign-ahead-of-india-blocs-november-1-mega-rally"
+        },
+        {
+          "title": "Organiser",
+          "url": "https://organiser.org/2026/10/30/422317/bharat/rajasthan-bjp-to-launch-save-democracy-remove-anarchy-campaign-in-state-against-congress-sir-protests/"
+        },
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/india/bjp-plans-nationwide-pushback-against-congress-over-sir-election-commission"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "jamshedpur-bjp-and-congress-workers-clash-2026-10",
+      "title": "Jamshedpur — BJP and Congress workers clash",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 12, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Jamshedpur",
+        "state": "Jharkhand",
+        "lat": 22.8,
+        "lon": 86.2
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "ruling",
+        "opposition"
+      ],
+      "topics": "Party politics",
+      "summary": "BJP and Congress workers clashed during a protest march, and the two parties traded charges.",
+      "background": "Details of the dispute are not in the report I found.",
+      "status_text": "Reported by the Daily Pioneer on Oct 12, 2026.",
+      "sources": [
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/news/jamshedpur-bjp-congress-workers-clash-protest-march"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "uttarakhand-dehradunrishikesh-highway-trees-2026-07",
+      "title": "Uttarakhand — Dehradun–Rishikesh highway trees",
+      "start": "2026-07",
+      "end": "2026-07",
+      "date_label": "Early Jul – Jul 18, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Uttarakhand",
+        "state": "Uttarakhand",
+        "lat": 30.2,
+        "lon": 78.1
+      },
+      "intensity": 2,
+      "status": "unknown",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Environment · Local residents",
+      "summary": "Residents, environmental activists, Uttarakhand Kranti Dal members and students protested the felling of roughly 4,000 trees for a highway-widening project.",
+      "background": "Protesters say the felling would harm wildlife corridors and elephant habitat and cut forest cover. They marked a “Black Harela”.",
+      "status_text": "On Jul 18 Chief Minister Pushkar Singh Dhami halted felling at Saat Mod until a consensus is reached. The project itself has not been cancelled.",
+      "response": "NHAI and the PWD say the project follows legal and environmental procedures and includes elephant underpasses and wildlife culverts, designed with advice from the Forest Department, WWF-India and the Wildlife Institute of India.",
+      "sources": [
+        {
+          "title": "New Kerala",
+          "url": "https://www.newkerala.com/news/a/uttarakhand-cm-dhami-halts-tree-felling-dehraduns-saat-mod-113.htm"
+        },
+        {
+          "title": "ETV Bharat",
+          "url": "https://www.etvbharat.com/en/state/pwd-secretary-pankaj-pandey-stand-on-cutting-of-three-thousand-tree-on-bhaniawala-rishikesh-highway-enn26071104017"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "karjat-maharashtra-saidongar-tree-felling-2026-10",
+      "title": "Karjat, Maharashtra — Saidongar tree felling",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 2026 (ongoing)",
+      "scope": "local",
+      "location": {
+        "name": "Karjat, Maharashtra",
+        "state": "Maharashtra",
+        "lat": 18.91,
+        "lon": 73.33
+      },
+      "intensity": 2,
+      "status": "ongoing",
+      "groups": [
+        "environment",
+        "opposition"
+      ],
+      "topics": "Environment",
+      "summary": "Activists and opposition leaders oppose the felling of 32,490 trees in the Saidongar forest for a 3,000 MW pumped-storage power project.",
+      "background": "Critics say the felling of dense forest near the Bhimashankar Wildlife Sanctuary would cause serious biodiversity loss.",
+      "status_text": "The Forest Department granted permission on Oct 14. Activists from across Maharashtra reached Karjat on Oct 26. Aaditya Thackeray and Rohit Pawar have criticised the project, and the NGO NatConnect asked the environment ministry to review it.",
+      "response": "The project is proposed by Torrent Power, and the Forest Department has issued the felling permission. I have not found the company’s or government’s response.",
+      "sources": [
+        {
+          "title": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/mumbai/not-merely-tree-felling-but-end-of-an-ecosystem-aaditya-thackeray-rohit-pawar-oppose-cutting-of-32490-trees-for-karjat-power-project"
+        },
+        {
+          "title": "UNI",
+          "url": "https://www.uniindia.com/west-india/activists-protest-tree-felling-for-power-project/225917"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "bhiwandi-maharashtra-municipal-workers-march-2026-10",
+      "title": "Bhiwandi, Maharashtra — municipal workers’ march",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 27, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Bhiwandi, Maharashtra",
+        "state": "Maharashtra",
+        "lat": 19.3,
+        "lon": 73.06
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "workers"
+      ],
+      "topics": "Workers · Pay",
+      "summary": "Municipal workers from nine trade unions marched demanding a ₹25,000 Diwali bonus, pay commission arrears and reinstatement of removed employees.",
+      "background": "The Kamgar Ekikaran Mahasangh accuses the civic authorities (BNCMC) of ignoring long-standing grievances.",
+      "status_text": "Reported on Oct 27, 2026.",
+      "response": "I have not found the authorities’ response.",
+      "sources": [
+        {
+          "title": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/mumbai/bncmc-workers-from-nine-trade-unions-stage-blow-the-whistle-march-demand-25000-diwali-bonus-and-arrears"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-general-strike-feb-12-2026-02",
+      "title": "Nationwide — general strike (Feb 12)",
+      "start": "2026-02",
+      "end": "2026-02",
+      "date_label": "Feb 12, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 21.15,
+        "lon": 79.09
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "workers"
+      ],
+      "topics": "Workers · Trade unions",
+      "summary": "A joint platform of ten central trade unions held a nationwide general strike against the labour codes and other economic policies.",
+      "background": "The unions, including CITU, AITUC, AICCTU and HMS, call the policies anti-labour. The AIKS, a farmers’ union, backed the strike.",
+      "status_text": "The unions and IndustriALL report about 300 million workers took part. That is the organisers’ figure and I have not seen it independently verified. The pin sits at the country’s centre because the strike was nationwide.",
+      "response": "I have not found the government’s response in what I read.",
+      "sources": [
+        {
+          "title": "IndustriALL",
+          "url": "https://www.industriall-union.org/india-300-million-workers-mobilize"
+        },
+        {
+          "title": "Business Standard",
+          "url": "https://www.business-standard.com/industry/news/trade-unions-hold-nationwide-strike-against-labour-codes-126021201629_1.html"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    }
+  ]
+}
