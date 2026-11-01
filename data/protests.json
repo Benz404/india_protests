@@ -681,6 +681,42 @@
         }
       ],
       "last_verified": "2026-11-01"
+    },
+    {
+      "id": "tezpur-university-protest-against-the-vice-chancellor-2025-09",
+      "title": "Tezpur University — protest against the Vice-Chancellor",
+      "start": "2025-09",
+      "end": "2026-09",
+      "date_label": "Sep 22, 2025 – Sep 7, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Tezpur University",
+        "state": "Assam",
+        "lat": 26.167,
+        "lon": 92.976
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "students",
+        "civil"
+      ],
+      "topics": "Vice-Chancellor accountability of Tezpur Central University",
+      "summary": "Students, teachers and non-teaching staff of Tezpur University have protested since Sept 22, 2025, demanding the removal of Vice-Chancellor Shambhu Nath Singh and an inquiry into allegations of corruption, financial irregularities and mismanagement. Students shut the campus indefinitely from Nov 29, 2025.",
+      "background": "The protest began after a row over a tribute to the great Soul of Assam , Zubeen Garg. Student groups say the Vice-Chancellor dismissed their request for a condolence programme. The protesters also allege corruption, misgovernance and long absence from campus. These are allegations, and no finding has been made public.",
+      "status_text": "On Dec 31, 2025 the Education Ministry sent the Vice-Chancellor on leave and set up a three-member enquiry committee. A Pro-Vice-Chancellor was appointed in January 2026. Protesters welcomed this but said they would not fully withdraw until the enquiry concluded. The committee reportedly submitted its report in May 2026, but no decision has been communicated. In a Sept 7, 2026 letter, students asked the Ministry to make the findings public and warned of a complete shutdown if their demands were not addressed. The latest report I found is from September 2026.",
+      "response": "I have not found a statement from Prof Singh or the university administration on the allegations. The Education Ministry sent him on leave pending the enquiry, and on Aug 7, 2026 directed that he continues to draw full salary, which the teachers’ association has questioned.",
+      "sources": [
+        {
+          "title": "Deccan Herald",
+          "url": "https://www.deccanherald.com/india/assam/agitation-for-over-100-days-force-centre-to-act-on-tezpur-university-crisis-vc-sent-on-leave-3849645"
+        },
+        {
+          "title": "The Sentinel",
+          "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/delay-in-decision-on-investigation-report-against-tezpur-university-vc-decried"
+        }
+      ],
+      "last_verified": "2026-11-01"
     }
   ]
 }
