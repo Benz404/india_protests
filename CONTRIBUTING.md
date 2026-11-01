@@ -1,7 +1,7 @@
 # Contributing
 
-Protest records live in `data/protests.json`. Add or fix a record with a pull request, or open the
-"Suggest a protest record" issue if you are not comfortable with Git.
+The easiest way to add a protest is the form at `/add.html` on the live site. It produces a pull request
+automatically. Records live in `data/protests.json` if you prefer to edit the file yourself.
 
 ## Editorial policy (this is what keeps the map non-partisan)
 

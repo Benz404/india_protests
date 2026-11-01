@@ -1,0 +1,38 @@
+name: Add record from issue
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+jobs:
+  add:
+    if: startsWith(github.event.issue.title, '[New record]')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - id: add
+        run: python scripts/add_from_issue.py
+        continue-on-error: true
+      - name: Open pull request
+        if: steps.add.outcome == 'success'
+        run: |
+          git config user.name "protest-map-bot"
+          git config user.email "bot@users.noreply.github.com"
+          B="record/issue-${ISSUE_NUMBER}"
+          git checkout -b "$B"
+          git add data/protests.json
+          git commit -m "Add record from issue #${ISSUE_NUMBER}"
+          git push origin "$B"
+          gh pr create --base main --head "$B" --title "Add record (issue #${ISSUE_NUMBER})" \
+            --body "Adds the record from #${ISSUE_NUMBER}. Check the wording, the sources and the other side's response, then merge. Closes #${ISSUE_NUMBER}"
+      - name: Explain the problem
+        if: steps.add.outcome != 'success'
+        run: gh issue comment "$ISSUE_NUMBER" --body-file result.md

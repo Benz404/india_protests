@@ -9,17 +9,26 @@ REQUIRED = ["id", "title", "start", "end", "date_label", "scope", "location", "i
             "status", "groups", "topics", "summary", "background", "status_text", "sources", "last_verified"]
 MONTH = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
 DAY = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+ID = re.compile(r"^[a-z0-9-]+$")
 
-def main():
-    data = json.loads((ROOT / "data" / "protests.json").read_text(encoding="utf-8"))
+def strings(x):
+    if isinstance(x, str): yield x
+    elif isinstance(x, dict):
+        for v in x.values(): yield from strings(v)
+    elif isinstance(x, list):
+        for v in x: yield from strings(v)
+
+def check(records):
+    """Return (errors, warnings) for a list of records."""
     errors, warnings, seen = [], [], set()
-    for i, r in enumerate(data["records"]):
+    for i, r in enumerate(records):
         tag = r.get("id", f"#{i}")
         for k in REQUIRED:
             if k not in r or r[k] in ("", None, []):
                 errors.append(f"{tag}: missing '{k}'")
         if r.get("id") in seen: errors.append(f"{tag}: duplicate id")
         seen.add(r.get("id"))
+        if not ID.match(str(r.get("id", ""))): errors.append(f"{tag}: id may use only a-z, 0-9 and hyphens")
         if not MONTH.match(str(r.get("start", ""))): errors.append(f"{tag}: start must be YYYY-MM")
         if not MONTH.match(str(r.get("end", ""))): errors.append(f"{tag}: end must be YYYY-MM")
         elif r.get("start") and r["end"] < r["start"]: errors.append(f"{tag}: end is before start")
@@ -30,16 +39,21 @@ def main():
         bad = set(r.get("groups", [])) - GROUPS
         if bad: errors.append(f"{tag}: unknown groups {sorted(bad)}")
         loc = r.get("location", {})
-        if not (6 <= loc.get("lat", 0) <= 38 and 68 <= loc.get("lon", 0) <= 98):
-            errors.append(f"{tag}: location is outside India's bounding box")
+        if not (isinstance(loc.get("lat"), (int, float)) and isinstance(loc.get("lon"), (int, float))
+                and 6 <= loc["lat"] <= 38 and 68 <= loc["lon"] <= 98):
+            errors.append(f"{tag}: location is missing or outside India's bounding box")
         for s in r.get("sources", []):
             if not str(s.get("url", "")).startswith("https://") or not s.get("title"):
                 errors.append(f"{tag}: each source needs a title and an https URL")
-        # Editorial warnings (do not fail)
-        if not r.get("response"):
-            warnings.append(f"{tag}: no 'response' (other side's view) recorded")
-        if len(r.get("sources", [])) < 2:
-            warnings.append(f"{tag}: only one source; add a second where possible")
+        if any("<" in t or ">" in t for t in strings(r)):
+            errors.append(f"{tag}: text must not contain < or >")
+        if not r.get("response"): warnings.append(f"{tag}: no 'response' (other side's view) recorded")
+        if len(r.get("sources", [])) < 2: warnings.append(f"{tag}: only one source; add a second where possible")
+    return errors, warnings
+
+def main():
+    data = json.loads((ROOT / "data" / "protests.json").read_text(encoding="utf-8"))
+    errors, warnings = check(data["records"])
     for w in warnings: print("WARN ", w)
     for e in errors: print("ERROR", e)
     print(f"{len(data['records'])} records, {len(errors)} errors, {len(warnings)} warnings")

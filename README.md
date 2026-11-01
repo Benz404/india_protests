@@ -37,13 +37,13 @@ Groups: `ruling`, `opposition`, `students`, `workers`, `farmers`, `environment`,
 
 ```html
 <script>
-fetch("https://YOUR-USERNAME.github.io/india-protest-map/api/v1/months/2026-11.json")
+fetch("https://benz404.github.io/india_protests/api/v1/months/2026-11.json")
   .then(r => r.json())
   .then(({records}) => records.forEach(r => console.log(r.title, r.intensity)));
 </script>
 ```
 
-Or embed the map as is: `<iframe src="https://YOUR-USERNAME.github.io/india-protest-map/"></iframe>`.
+Or embed the map as is: `<iframe src="https://benz404.github.io/india_protests/"></iframe>`.
 To point the map at another copy of the API, add `?api=https://example.org/api/v1/protests.json`.
 
 ## Record format
@@ -74,10 +74,17 @@ pull request and deploys on push to `main`.
 **Netlify:** build command `python scripts/build_api.py --out site`, publish directory `site`.
 The build writes a `_headers` file that allows cross-origin requests.
 
-## Updating
+## Adding a record (easy way)
 
-Edit `data/protests.json` (or accept an issue/PR), run `validate.py`, merge. CI rebuilds the API.
-Contributors do not need to touch the generated files.
+Open **`/add.html`** on the live site (for example https://benz404.github.io/india_protests/add.html).
+Fill in the form, click the place on the map, and press **Send for review**. This opens a pre-filled
+GitHub issue. A bot validates it and opens a pull request. The maintainer checks the wording, sources and
+the other side's response, then merges. The site and API rebuild by themselves.
+
+**One-time setup for the maintainer:** Settings → Actions → General → Workflow permissions →
+choose *Read and write permissions* and tick *Allow GitHub Actions to create and approve pull requests*.
+
+Advanced: you can also edit `data/protests.json` directly, then run `python scripts/validate.py`.
 
 ## Limitations
 

@@ -52,7 +52,8 @@ def main():
         "month": "api/v1/months/{YYYY-MM}.json", "group": "api/v1/groups/{group}.json",
         "record": "api/v1/records/{id}.json"},
         "years": sorted(by_year), "months": sorted(by_month), "groups": GROUPS})
-    shutil.copy(ROOT / "web" / "index.html", out / "index.html")
+    for page in ("index.html", "add.html"):
+        shutil.copy(ROOT / "web" / page, out / page)
     (out / "_headers").write_text("/api/*\n  Access-Control-Allow-Origin: *\n  Cache-Control: public, max-age=300\n")
     print(f"Built {len(recs)} records into {out}")
 
