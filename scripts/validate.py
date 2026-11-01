@@ -1,49 +1,113 @@
 #!/usr/bin/env python3
-"""Validate data/protests.json. Exit code 1 on errors; warnings never fail the build."""
-import json, re, sys, pathlib
+"""Validate the protest dataset against the published JSON Schema and editorial invariants."""
+from __future__ import annotations
+
+import json
+import pathlib
+import sys
+from datetime import date
+
+from jsonschema import Draft202012Validator, FormatChecker
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+DATA_PATH = ROOT / "data" / "protests.json"
+SCHEMA_PATH = ROOT / "schema" / "protest.schema.json"
 GROUPS = {"ruling", "opposition", "students", "workers", "farmers", "environment", "civil"}
-STATUSES = {"planned", "ongoing", "ended", "unknown"}
-REQUIRED = ["id", "title", "start", "end", "date_label", "scope", "location", "intensity",
-            "status", "groups", "topics", "summary", "background", "status_text", "sources", "last_verified"]
-MONTH = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
-DAY = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def load_json(path: pathlib.Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Cannot read valid JSON from {path.relative_to(ROOT)}: {exc}") from exc
+
+
+def validate_dataset(dataset=None, schema=None):
+    """Return (errors, warnings); does not mutate the input dataset."""
+    if dataset is None:
+        dataset = load_json(DATA_PATH)
+    if schema is None:
+        schema = load_json(SCHEMA_PATH)
+
+    errors = []
+    warnings = []
+
+    try:
+        Draft202012Validator.check_schema(schema)
+    except Exception as exc:
+        return [f"Invalid JSON Schema: {exc}"], warnings
+
+    if not isinstance(dataset, dict) or not isinstance(dataset.get("records"), list):
+        return ["Dataset must be an object containing a 'records' array."], warnings
+
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    seen_ids = set()
+
+    for index, record in enumerate(dataset["records"]):
+        if not isinstance(record, dict):
+            errors.append(f"records[{index}]: record must be a JSON object")
+            continue
+
+        record_id = record.get("id", f"records[{index}]")
+        for error in validator.iter_errors(record):
+            location = ".".join(str(part) for part in error.absolute_path)
+            field = f"{location}: " if location else ""
+            errors.append(f"{record_id}: {field}{error.message}")
+
+        if isinstance(record_id, str):
+            if record_id in seen_ids:
+                errors.append(f"{record_id}: duplicate id")
+            seen_ids.add(record_id)
+
+        # JSON Schema patterns validate the shape; these checks validate real calendar months.
+        for field in ("start", "end"):
+            value = record.get(field)
+            if isinstance(value, str):
+                try:
+                    year, month = value.split("-", 1)
+                    date(int(year), int(month), 1)
+                except (ValueError, TypeError):
+                    errors.append(f"{record_id}: '{field}' is not a real calendar month")
+
+        start, end = record.get("start"), record.get("end")
+        if isinstance(start, str) and isinstance(end, str) and end < start:
+            errors.append(f"{record_id}: end is before start")
+
+        location = record.get("location")
+        if isinstance(location, dict):
+            lat, lon = location.get("lat"), location.get("lon")
+            # bool is a subclass of int in Python, but is not a valid coordinate.
+            if isinstance(lat, bool) or isinstance(lon, bool):
+                errors.append(f"{record_id}: coordinates must be numeric, not boolean")
+
+        sources = record.get("sources", [])
+        if isinstance(sources, list):
+            if len(sources) < 2:
+                warnings.append(f"{record_id}: only one source; add a second where possible")
+        if not record.get("response"):
+            warnings.append(f"{record_id}: no 'response' (other side's view) recorded")
+
+    return errors, warnings
+
 
 def main():
-    data = json.loads((ROOT / "data" / "protests.json").read_text(encoding="utf-8"))
-    errors, warnings, seen = [], [], set()
-    for i, r in enumerate(data["records"]):
-        tag = r.get("id", f"#{i}")
-        for k in REQUIRED:
-            if k not in r or r[k] in ("", None, []):
-                errors.append(f"{tag}: missing '{k}'")
-        if r.get("id") in seen: errors.append(f"{tag}: duplicate id")
-        seen.add(r.get("id"))
-        if not MONTH.match(str(r.get("start", ""))): errors.append(f"{tag}: start must be YYYY-MM")
-        if not MONTH.match(str(r.get("end", ""))): errors.append(f"{tag}: end must be YYYY-MM")
-        elif r.get("start") and r["end"] < r["start"]: errors.append(f"{tag}: end is before start")
-        if not DAY.match(str(r.get("last_verified", ""))): errors.append(f"{tag}: last_verified must be YYYY-MM-DD")
-        if r.get("intensity") not in (1, 2, 3, 4, 5): errors.append(f"{tag}: intensity must be 1-5")
-        if r.get("status") not in STATUSES: errors.append(f"{tag}: status must be one of {sorted(STATUSES)}")
-        if r.get("scope") not in ("local", "national"): errors.append(f"{tag}: scope must be local or national")
-        bad = set(r.get("groups", [])) - GROUPS
-        if bad: errors.append(f"{tag}: unknown groups {sorted(bad)}")
-        loc = r.get("location", {})
-        if not (6 <= loc.get("lat", 0) <= 38 and 68 <= loc.get("lon", 0) <= 98):
-            errors.append(f"{tag}: location is outside India's bounding box")
-        for s in r.get("sources", []):
-            if not str(s.get("url", "")).startswith("https://") or not s.get("title"):
-                errors.append(f"{tag}: each source needs a title and an https URL")
-        # Editorial warnings (do not fail)
-        if not r.get("response"):
-            warnings.append(f"{tag}: no 'response' (other side's view) recorded")
-        if len(r.get("sources", [])) < 2:
-            warnings.append(f"{tag}: only one source; add a second where possible")
-    for w in warnings: print("WARN ", w)
-    for e in errors: print("ERROR", e)
-    print(f"{len(data['records'])} records, {len(errors)} errors, {len(warnings)} warnings")
-    sys.exit(1 if errors else 0)
+    try:
+        dataset = load_json(DATA_PATH)
+        schema = load_json(SCHEMA_PATH)
+        errors, warnings = validate_dataset(dataset, schema)
+    except ValueError as exc:
+        print(f"ERROR {exc}", file=sys.stderr)
+        return 1
+
+    for warning in warnings:
+        print("WARN ", warning)
+    for error in errors:
+        print("ERROR", error)
+
+    count = len(dataset.get("records", [])) if isinstance(dataset, dict) else 0
+    print(f"{count} records, {len(errors)} errors, {len(warnings)} warnings")
+    return 1 if errors else 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
