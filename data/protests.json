@@ -642,6 +642,45 @@
         }
       ],
       "last_verified": "2026-11-01"
+    },
+    {
+      "id": "delhi-new-delhi-jamia-millia-islamia-students-union-protest-2026-10",
+      "title": "Delhi — New Delhi — Jamia Millia Islamia students’ union protest",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 12–29, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Delhi",
+        "state": "NCT of Delhi",
+        "lat": 28.671,
+        "lon": 77.173
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "students"
+      ],
+      "topics": "Union elections",
+      "summary": "Students, some on hunger strike, protested for about 18 days demanding the restoration of the Jamia Millia Islamia Students’ Union (JMISU). The protest ended on Oct 29 after an agreement with the administration.",
+      "background": "JMISU elections have not been held since 2006. Students demanded the union’s restoration, approval of its constitution and a firm timeline for elections. Some also demanded the Proctor’s resignation.",
+      "status_text": "An order dated Oct 26 said union elections would be held 15 days after the constitution is approved, revoked suspensions and show-cause notices, and set up a committee to examine the conduct of security staff. Students rejected it as vague and the protest continued, with scuffles reported. After the Oct 29 agreement the protest was called off. Reports describe a 2027 timeline for the constitution and elections. I have not independently confirmed the exact dates.",
+      "response": "The administration said it had considered the students’ demand letter and issued the Oct 26 order. It had earlier issued a final warning to protesters to vacate the premises and threatened legal action.",
+      "sources": [
+        {
+          "title": "Siasat / PTI",
+          "url": "https://www.siasat.com/jamia-orders-student-union-polls-within-15-days-students-jubilant-3564700/"
+        },
+        {
+          "title": "Outlook India",
+          "url": "https://www.outlookindia.com/national/jamia-millia-islamia-protest-ends-after-deal-on-union-polls-disciplinary-action"
+        },
+        {
+          "title": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/education/jamia-millia-islamia-issues-final-warning-to-protesting-students-threatens-legal-action-as-union-election-row-continues"
+        }
+      ],
+      "last_verified": "2026-11-01"
     }
   ]
 }
