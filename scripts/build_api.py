@@ -27,9 +27,8 @@ def main():
     ap.add_argument("--out", default="site")
     out = ROOT / ap.parse_args().out
     if out.exists(): shutil.rmtree(out)
-    sys.path.insert(0, str(ROOT / "scripts"))
-    from validate import load_all
-    recs = sorted(load_all(), key=lambda r: (r["start"], r["id"]), reverse=True)
+    data = json.loads((ROOT / "data" / "protests.json").read_text(encoding="utf-8"))
+    recs = sorted(data["records"], key=lambda r: (r["start"], r["id"]), reverse=True)
     api = out / "api" / "v1"
     by_month, by_year, by_group = {}, {}, {g: [] for g in GROUPS}
     for r in recs:
