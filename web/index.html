@@ -11,8 +11,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#fff;--card:#fff;--soft:#f5f7fd;--ink:#10132b;--mute:#5b6180;--land:#eef1fa;--line:#e1e5f2;--brand:#1e35b8;--hot:#d9381e;box-sizing:border-box;--serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
-:root[data-theme=dark]{--bg:#0c0f1d;--card:#131830;--soft:#10152b;--ink:#eceefb;--mute:#9ba1c4;--land:#1b2142;--line:#262d54;--brand:#8da0ff}
+:root{--bg:#fff;--card:#fff;--soft:#f5f7fd;--ink:#10132b;--mute:#5b6180;--land:#dce5f3;--map-bg:#edf2fa;--map-line:#aebbd1;--line:#d7deec;--brand:#1e35b8;--hot:#d9381e;box-sizing:border-box;--serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
+:root[data-theme=dark]{--bg:#0c0f1d;--card:#131830;--soft:#10152b;--ink:#eceefb;--mute:#9ba1c4;--land:#1b2142;--map-bg:#10162a;--map-line:#394466;--line:#262d54;--brand:#8da0ff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans)}
 a{color:var(--brand)}:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
@@ -37,9 +37,9 @@ h1{font:600 clamp(32px,5.4vw,56px)/1.04 var(--serif);letter-spacing:-.025em;marg
 [data-theme=dark] .mo.on{color:#0c0f1d}
 .mo.has::after{content:"";position:absolute;top:3px;right:4px;width:6px;height:6px;border-radius:50%;background:var(--hot)}.mo.off{opacity:.45}
 main{display:grid;grid-template-columns:1fr 380px;gap:20px}
-.mapwrap{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:10px;position:relative}
+.mapwrap{background:var(--map-bg);border:1px solid var(--map-line);border-radius:16px;padding:10px;position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
 svg#map{width:100%;height:auto;display:block;max-height:76vh}
-.st{fill:var(--land);stroke:var(--bg);stroke-width:.9;stroke-linejoin:round;transition:fill .15s}.st:hover{fill:var(--line)}
+.st{fill:var(--land);stroke:var(--map-line);stroke-width:1.25;stroke-linejoin:round;paint-order:stroke fill;transition:fill .15s,stroke .15s}.st:hover{fill:var(--line);stroke:var(--brand);stroke-width:1.6}
 .pin{cursor:pointer}.pin .core{stroke:var(--bg);stroke-width:2}.pin.sel .core{stroke:var(--ink);stroke-width:3}
 .pin .pulse{transform-box:fill-box;transform-origin:center;animation:p 2.4s ease-out infinite;opacity:.4}
 @keyframes p{0%{transform:scale(.6);opacity:.55}100%{transform:scale(2.6);opacity:0}}
