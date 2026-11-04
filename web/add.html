@@ -3,10 +3,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Add a protest · India Protest &amp; Peace Map</title>
 <style>
-:root{--bg:#f6f1e9;--card:#fffdf8;--ink:#1d1a16;--mute:#6f675b;--land:#e4dccd;--line:#c9bfab;--hot:#d9381e;--ok:#2f8f5b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121416;--card:#1b1f23;--ink:#eee9e0;--mute:#9a958b;--land:#23292f;--line:#38414a}}
+:root{--bg:#fff;--card:#fff;--ink:#10132b;--mute:#5b6180;--land:#dce5f3;--map-bg:#edf2fa;--map-line:#aebbd1;--line:#d7deec;--brand:#1e35b8;--hot:#d9381e;--ok:#2f8f5b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="dark"]{--bg:#0c0f1d;--card:#131830;--ink:#eceefb;--mute:#9ba1c4;--land:#1b2142;--map-bg:#10162a;--map-line:#394466;--line:#262d54;--brand:#8da0ff;--hot:#ff765e;--ok:#65c995}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}
 .wrap{max-width:1100px;margin:auto;padding:18px 20px 40px}h1{font:600 clamp(24px,5vw,34px) Georgia,serif;margin:0 0 4px}
+.headrow{display:flex;align-items:center;justify-content:space-between;gap:14px}.headrow h1{margin:0}
+#theme{font:600 13px system-ui,sans-serif;padding:7px 13px;border:1px solid var(--line);border-radius:20px;background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap}
+a{color:var(--brand)}
 .sub{color:var(--mute);font-size:13px}a{color:var(--ink)}
 .grid{display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px}
@@ -16,7 +19,9 @@ input[type=text],input[type=url],input[type=date],select,textarea{width:100%;fon
 textarea{min-height:76px;resize:vertical}.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .chips{display:flex;flex-wrap:wrap;gap:8px}.chips label{display:flex;align-items:center;gap:6px;margin:0;font-weight:400;border:1px solid var(--line);border-radius:20px;padding:6px 12px;cursor:pointer;background:var(--bg)}
 .lv label{display:flex;gap:8px;align-items:flex-start;font-weight:400;margin:6px 0;cursor:pointer}
-svg{width:100%;height:auto;max-height:520px;display:block;cursor:crosshair}.st{fill:var(--land);stroke:var(--card);stroke-width:.9}.st:hover{fill:var(--line)}
+svg{width:100%;height:auto;max-height:520px;display:block;cursor:crosshair}
+#map{background:var(--map-bg);border:1px solid var(--map-line);border-radius:12px;padding:8px}
+.st{fill:var(--land);stroke:var(--map-line);stroke-width:1.25;stroke-linejoin:round;paint-order:stroke fill;transition:fill .15s,stroke .15s}.st:hover{fill:var(--line);stroke:var(--brand);stroke-width:1.6}
 .sel{font-size:13px;margin-top:6px;color:var(--mute)}
 pre{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:12px;max-height:300px;overflow:auto;white-space:pre-wrap;word-break:break-word}
 button{font:600 14px system-ui,sans-serif;padding:10px 14px;border-radius:10px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer;margin:4px 6px 0 0}
@@ -25,8 +30,8 @@ button.alt{background:none;color:var(--ink)}button:disabled{opacity:.4;cursor:no
 .side{position:sticky;top:12px;align-self:start}
 @media(max-width:860px){.grid{grid-template-columns:1fr}.side{position:static}}
 </style></head><body><div class="wrap">
-<h1>Add a protest</h1>
-<div class="sub">Fill in what you know. Any side, any cause, as long as you have a source. <a href="./">Back to the map</a></div>
+<header class="headrow"><h1>Add a protest</h1><button id="theme" type="button" aria-label="Switch colour theme">Dark</button></header>
+<div class="sub" style="margin-top:6px">Fill in what you know. Any side, any cause, as long as you have a source. <a href="./">Back to the map</a></div>
 <div class="grid"><div>
 <div class="card"><h2>1 · Where</h2>
 <label><input type="checkbox" id="nat"> This is a nationwide protest</label>
@@ -62,6 +67,7 @@ button.alt{background:none;color:var(--ink)}button:disabled{opacity:.4;cursor:no
 <div class="sub" style="margin-top:8px">“Send for review” opens a pre-filled GitHub issue. A bot turns it into a pull request, and the maintainer checks it before it goes live. You need a free GitHub account.</div></div></div>
 </div></div>
 <script>
+(function(){const root=document.documentElement,button=document.getElementById('theme');function setTheme(theme){if(theme==='dark'){root.setAttribute('data-theme','dark')}else{root.removeAttribute('data-theme')}button.textContent=theme==='dark'?'Light':'Dark';button.setAttribute('aria-label',theme==='dark'?'Switch to light theme':'Switch to dark theme')}let saved=null;try{saved=localStorage.getItem('vt-theme')}catch(e){}setTheme(saved==='dark'?'dark':'light');button.addEventListener('click',()=>{const next=root.getAttribute('data-theme')==='dark'?'light':'dark';setTheme(next);try{localStorage.setItem('vt-theme',next)}catch(e){}})})();
 const REPO='Benz404/india_protests';
 const GR={ruling:'Ruling party',opposition:'Opposition',students:'Students',workers:'Workers',farmers:'Farmers',environment:'Environment',civil:'Civil society'};
 const LV=[[1,'Peaceful'],[2,'Minor friction (detentions, scuffles)'],[3,'Heavy policing or disruption (barricades, water cannon, bandh)'],[4,'Force or injuries (baton charge, tear gas, injured people)'],[5,'Serious violence (arson, many people injured)']];
