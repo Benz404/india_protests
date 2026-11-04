@@ -1,0 +1,1493 @@
+{
+  "records": [
+    {
+      "id": "new-delhi-ramlila-maidan-2026-11",
+      "title": "New Delhi — Ramlila Maidan",
+      "start": "2026-11",
+      "end": "2026-11",
+      "date_label": "Today · Nov 1, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.65,
+        "lon": 77.24
+      },
+      "intensity": 3,
+      "status": "ongoing",
+      "groups": [
+        "opposition"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "The INDIA bloc’s “Save the Vote, Save the Country” rally demands the resignation of Chief Election Commissioner Gyanesh Kumar.",
+      "background": "Anger over the Special Intensive Revision (SIR) of electoral rolls, which has struck millions of names off voter lists, and over alleged irregularities. It follows a September Indian Express report on divisions inside the Election Commission.",
+      "status_text": "The march runs from the Minto Road–Connaught Place junction to Ramlila Maidan, led by Rahul Gandhi with Akhilesh Yadav and other opposition leaders. Congress is targeting a turnout of one million. Around 10,000 security personnel and 250 CCTV cameras are deployed, and thousands from across North India have already gathered. The Commission rejects the allegations.",
+      "response": "The Election Commission rejects the allegations and says the revision order was approved unanimously by the full Commission, pointing to court proceedings. The BJP calls the rally “political drama”, objected to its date near Diwali, and is running its own campaign against the opposition’s claims.",
+      "sources": [
+        {
+          "title": "Outlook India — live updates",
+          "url": "https://www.outlookindia.com/national/india-bloc-protest-live-updates-november-1-anti-sir-march-rahul-gandhi-opposition-cec-gyanesh-kumar-cjp-dipke-neha-bora"
+        },
+        {
+          "title": "Outlook India — security",
+          "url": "https://www.outlookindia.com/national/delhi-india-bloc-protest-10000-security-personnel-gyanesh-kumar"
+        },
+        {
+          "title": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/india-s-protest-movements-unite-in-fresh-headache-for-modi"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "arunachal-pradesh-siang-dam-2026-10",
+      "title": "Arunachal Pradesh — Siang dam",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 23–25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Arunachal Pradesh",
+        "state": "Arunachal Pradesh",
+        "lat": 28.1,
+        "lon": 95.1
+      },
+      "intensity": 5,
+      "status": "unknown",
+      "groups": [
+        "environment"
+      ],
+      "topics": "Environment · Land",
+      "summary": "Protesters clashed with police over the proposed 11,200 MW Siang Upper Multipurpose Project.",
+      "background": "The state-run NHPC dam is meant to counter a large Chinese hydropower project upstream in Tibet. Local communities fear losing their homes and land and oppose it strongly.",
+      "status_text": "Violence broke out late on Friday, Oct 23. About 40 police personnel were injured by stones, and police fired tear gas. The NHPC office and a police station were vandalised and several elected representatives’ homes were ransacked, according to Chief Minister Pema Khandu, who urged dialogue instead of violence.",
+      "response": "India says the dam is needed to counter China’s upstream Yaxia project and to store water and maintain flows into the Brahmaputra. The Chief Minister urged dialogue instead of violence.",
+      "sources": [
+        {
+          "title": "Express Tribune / AFP",
+          "url": "https://tribune.com.pk/story/2636849/protesters-clash-with-police-over-india-dam-project-bordering-china"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-kisan-agitation-2026-11",
+      "title": "Nationwide — Kisan agitation",
+      "start": "2026-11",
+      "end": "2026-11",
+      "date_label": "Starts Nov 26, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 29.05,
+        "lon": 77.55
+      },
+      "intensity": 2,
+      "status": "planned",
+      "groups": [
+        "farmers",
+        "workers"
+      ],
+      "topics": "Farmers · Workers",
+      "summary": "The Samyukt Kisan Morcha plans a multi-day nationwide agitation starting Nov 26.",
+      "background": "A seven-point charter of demands from farmers’ groups and trade unions, covering issues such as MSP, job security and corporate influence in agriculture.",
+      "status_text": "Planned mass action at about 100 spots including the national capital, with the form and exact places still to be announced. SKM says it will not call off the protest until all principal demands are met, and its workers have already joined the voter-roll protests in Delhi.",
+      "sources": [
+        {
+          "title": "Deccan Chronicle / Bloomberg",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/the-farmers-coalition-join-widening-protests-over-voter-roll-revamp-1998218"
+        },
+        {
+          "title": "Indian Awaaz",
+          "url": "https://theindianawaaz.com/skm-announces-nationwide-farmers-agitation-sets-7-point-charter-of-demands/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "ranchi-jharkhand-jpsc-jssc-exam-protest-2026-07",
+      "title": "Ranchi, Jharkhand — JPSC-JSSC exam protest",
+      "start": "2026-07",
+      "end": "2026-08",
+      "date_label": "Late Jul – Aug 19, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Ranchi, Jharkhand",
+        "state": "Jharkhand",
+        "lat": 23.35,
+        "lon": 85.33
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Students and job aspirants camped in Ranchi for about three and a half weeks over alleged paper leaks and irregularities in JPSC and JSSC recruitment exams.",
+      "background": "Anger over the 14th JPSC prelims, the JSSC-CGL exam and other recruitment tests. The JPSC-JSSC Reforms Manch demanded cancellations and a CBI probe, and some protesters also asked for the Chief Minister’s resignation.",
+      "status_text": "Several students went on hunger strike. On Aug 10 a march to the Assembly met water cannons and tear gas, and the BJP called a statewide bandh the next day. The government cancelled three JPSC exams, then the 2024 JSSC-CGL and all TDPL exams (22 exams in all), ordered CID and ED probes, and three PSC members resigned. The agitation was called off on Aug 19, but the CBI probe demand is still unresolved and students reportedly gave the government a two-month ultimatum. I haven’t checked what has happened since.",
+      "response": "The state government favoured dialogue, held talks, cancelled the exams and ordered CID and ED probes. The BJP, the opposition in the state, demanded a CBI probe and questioned the impartiality of the investigation.",
+      "sources": [
+        {
+          "title": "All India Radio",
+          "url": "https://newsonair.gov.in/jharkhand-students-end-jpsc-jssc-agitation-after-govt-cancels-22-exams/"
+        },
+        {
+          "title": "Outlook India",
+          "url": "https://www.outlookindia.com/national/jharkhand-student-protesters-reach-assembly-gates-after-facing-tear-gas-water-cannons"
+        },
+        {
+          "title": "The Week",
+          "url": "https://www.theweek.in/news/india/2026/08/18/jharkhand-jssc-cgl-cancellation-mahto-ends-fast.amp.html"
+        },
+        {
+          "title": "Amar Ujala (Hindi)",
+          "url": "https://www.amarujala.com/jharkhand/ranchi/jpsc-jssc-student-protest-ends-jharkhand-2-month-ultimatum-cbi-probe-ranchi-2026-08-19"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-election-commission-2026-10",
+      "title": "New Delhi — Election Commission",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 5–10, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.6,
+        "lon": 77.22
+      },
+      "intensity": 3,
+      "status": "unknown",
+      "groups": [
+        "opposition",
+        "students"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "Opposition leaders and a youth movement protested against Chief Election Commissioner Gyanesh Kumar.",
+      "background": "A September Indian Express report said the Commission’s own deputies had questioned and disagreed with Kumar, amid the voter-roll revision.",
+      "status_text": "Rahul Gandhi and opposition lawmakers staged a sit-in near the Commission’s office and were detained on consecutive days. Delhi was sealed off ahead of a large youth “Save Democracy” march on Oct 10.",
+      "response": "The Election Commission rejects the allegations, and BJP leaders say the opposition has no basis for its protest.",
+      "sources": [
+        {
+          "title": "Express Tribune / Reuters",
+          "url": "https://tribune.com.pk/story/2633522/rahul-gandhi-indian-opposition-lawmakers-detained-over-election-chief-protest-for-second-day"
+        },
+        {
+          "title": "ARY / Reuters",
+          "url": "https://arynews.tv/delhi-sealed-off-ahead-of-youth-protest-against-indian-election-chief"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "mumbai-2026-10",
+      "title": "Mumbai",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 2026",
+      "scope": "local",
+      "location": {
+        "name": "Mumbai",
+        "state": "Maharashtra",
+        "lat": 19.08,
+        "lon": 72.88
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "civil"
+      ],
+      "topics": "Politics · Elections",
+      "summary": "Thousands marched waving national flags on the third day of protests against the election chief.",
+      "background": "Part of the same wave triggered by the Indian Express report on the Election Commission.",
+      "status_text": "The march was reported as peaceful, with large crowds on the Sunday.",
+      "sources": [
+        {
+          "title": "Kuwait Times",
+          "url": "https://kuwaittimes.com/article/50916/world/indians-protest-for-third-day-against-election-chief/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-march-to-election-commission-2026-10",
+      "title": "New Delhi — march to Election Commission",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 23, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.55,
+        "lon": 77.3
+      },
+      "intensity": 2,
+      "status": "unknown",
+      "groups": [
+        "farmers",
+        "students",
+        "civil"
+      ],
+      "topics": "Farmers · Students",
+      "summary": "Hundreds, including Samyukt Kisan Morcha workers, students and left groups, tried to march towards the Election Commission.",
+      "background": "Farmers’ groups joined the widening protests over the voter-roll revamp.",
+      "status_text": "SKM is also preparing a larger agitation from Nov 26.",
+      "sources": [
+        {
+          "title": "Deccan Chronicle / Bloomberg",
+          "url": "https://www.deccanchronicle.com/nation/current-affairs/the-farmers-coalition-join-widening-protests-over-voter-roll-revamp-1998218"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-paper-leak-protest-2026-08",
+      "title": "New Delhi — paper-leak protest",
+      "start": "2026-08",
+      "end": "2026-08",
+      "date_label": "Aug 25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.7,
+        "lon": 77.15
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "students"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Police used water cannon at a fresh protest over test-paper leaks.",
+      "background": "Continuing anger over repeated exam paper leaks.",
+      "status_text": "Reported on Aug 25, 2026.",
+      "sources": [
+        {
+          "title": "Express Tribune",
+          "url": "https://tribune.com.pk/story/2625813/indian-police-use-water-cannon-at-new-protest-over-test-paper-leaks"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-aug-10-protest-day-himachal-shown-2026-08",
+      "title": "Nationwide — Aug 10 protest day (Himachal shown)",
+      "start": "2026-08",
+      "end": "2026-08",
+      "date_label": "Aug 10, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 31.1,
+        "lon": 77.17
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "farmers",
+        "workers"
+      ],
+      "topics": "Farmers · Workers",
+      "summary": "Farmers’ and workers’ groups held a nationwide protest day with Jail Bharo, Rasta Roko and Rail Roko actions.",
+      "background": "A call by the Samyukt Kisan Morcha and central trade unions over agrarian and labour policies, a build-up to the Nov 26 agitation.",
+      "status_text": "In Himachal Pradesh, protests were planned at about 25 locations. The map shows Himachal as one example of a nationwide action.",
+      "sources": [
+        {
+          "title": "Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/headlines/3961679-himachals-unified-front-farmers-and-workers-gear-up-for-nationwide-protest"
+        },
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/news/aiks-calls-for-mass-farmer-protests-on-august-10"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-neet-march-to-parliament-2026-07",
+      "title": "New Delhi — NEET march to Parliament",
+      "start": "2026-07",
+      "end": "2026-07",
+      "date_label": "Jul 20, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 29.2,
+        "lon": 77
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition"
+      ],
+      "topics": "Students · Exams",
+      "summary": "Protesters marching to Parliament over alleged NEET exam irregularities were baton-charged.",
+      "background": "Anger over alleged NEET irregularities, directed at the Education Minister.",
+      "status_text": "Police used batons on the march on July 20, 2026.",
+      "sources": [
+        {
+          "title": "Kuwait Times / AFP",
+          "url": "https://kuwaittimes.com/article/46753/world/indian-police-baton-charge-protesters-marching-to-parliament/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "thiruvananthapuram-2026-06",
+      "title": "Thiruvananthapuram",
+      "start": "2026-06",
+      "end": "2026-06",
+      "date_label": "Jun 25, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Thiruvananthapuram",
+        "state": "Kerala",
+        "lat": 8.52,
+        "lon": 76.95
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "opposition"
+      ],
+      "topics": "Local politics",
+      "summary": "An LDF protest at the city corporation turned into a scuffle; the Mayor was among those injured.",
+      "background": "Local political confrontation inside the municipal body.",
+      "status_text": "Reported by The Indian Express on Jun 25, 2026.",
+      "sources": [
+        {
+          "title": "The Indian Express",
+          "url": "https://indianexpress.com"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-congress-headquarters-2026-02",
+      "title": "New Delhi — Congress headquarters",
+      "start": "2026-02",
+      "end": "2026-02",
+      "date_label": "Feb 21, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "ruling"
+      ],
+      "topics": "Party politics",
+      "summary": "Delhi BJP protested outside the Congress headquarters over a Youth Congress ruckus at the India-AI Impact Summit.",
+      "background": "A dispute over Indian Youth Congress workers’ disruption at the summit the day before.",
+      "status_text": "Led by Delhi BJP president Virendra Sachdeva and MP Manoj Tiwari.",
+      "sources": [
+        {
+          "title": "All India Radio",
+          "url": "https://www.newsonair.gov.in/bjp-protests-outside-congress-headquarters-over-youth-congress-ruckus-at-india-ai-impact-summit"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "bengaluru-bjp-protest-at-freedom-park-2026-10",
+      "title": "Bengaluru — BJP protest at Freedom Park",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 26, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Bengaluru",
+        "state": "Karnataka",
+        "lat": 12.97,
+        "lon": 77.59
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "ruling"
+      ],
+      "topics": "Party politics",
+      "summary": "BJP leaders and workers protested against Congress president Mallikarjun Kharge’s remark about the Prime Minister and demanded a public apology.",
+      "background": "The BJP objected to Kharge’s remarks about Narendra Modi’s father.",
+      "status_text": "The protest was led by Karnataka’s Leader of Opposition R Ashoka. Some BJP leaders were detained by police.",
+      "response": "Congress’s response is not in the report I found.",
+      "sources": [
+        {
+          "title": "Siasat / PTI",
+          "url": "https://www.siasat.com/bjp-seeks-kharges-public-apology-over-modis-father-remarks-3564920/"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "new-delhi-bjp-save-democracy-remove-anarchy-campaign-2026-10",
+      "title": "New Delhi — BJP “Save Democracy, Remove Anarchy” campaign",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 26–30, 2026",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.8,
+        "lon": 77.1
+      },
+      "intensity": 1,
+      "status": "ongoing",
+      "groups": [
+        "ruling",
+        "civil"
+      ],
+      "topics": "Party politics · Traders",
+      "summary": "The BJP launched a campaign to counter the Congress’s claims on the voter-roll revision, including a Chandni Chowk march planned for Oct 28 and a statewide campaign in Rajasthan from Oct 30.",
+      "background": "The BJP says the opposition’s allegations about the Special Intensive Revision and the Election Commission are misleading, and has prepared a document rebutting them.",
+      "status_text": "Separately, traders protested at Kashmere Gate on Oct 26, asking the Congress to postpone its Nov 1 rally until after Diwali. I have not confirmed that the Oct 28 march took place.",
+      "response": "The opposition says the revision strikes eligible voters off the rolls and wants the Chief Election Commissioner to resign.",
+      "sources": [
+        {
+          "title": "Dynamite News",
+          "url": "https://www.dynamitenews.com/national/save-democracy-remove-anarchy-bjp-steps-up-sir-campaign-ahead-of-india-blocs-november-1-mega-rally"
+        },
+        {
+          "title": "Organiser",
+          "url": "https://organiser.org/2026/10/30/422317/bharat/rajasthan-bjp-to-launch-save-democracy-remove-anarchy-campaign-in-state-against-congress-sir-protests/"
+        },
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/india/bjp-plans-nationwide-pushback-against-congress-over-sir-election-commission"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "jamshedpur-bjp-and-congress-workers-clash-2026-10",
+      "title": "Jamshedpur — BJP and Congress workers clash",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 12, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Jamshedpur",
+        "state": "Jharkhand",
+        "lat": 22.8,
+        "lon": 86.2
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "ruling",
+        "opposition"
+      ],
+      "topics": "Party politics",
+      "summary": "BJP and Congress workers clashed during a protest march, and the two parties traded charges.",
+      "background": "Details of the dispute are not in the report I found.",
+      "status_text": "Reported by the Daily Pioneer on Oct 12, 2026.",
+      "sources": [
+        {
+          "title": "Daily Pioneer",
+          "url": "https://dailypioneer.com/news/jamshedpur-bjp-congress-workers-clash-protest-march"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "uttarakhand-dehradunrishikesh-highway-trees-2026-07",
+      "title": "Uttarakhand — Dehradun–Rishikesh highway trees",
+      "start": "2026-07",
+      "end": "2026-07",
+      "date_label": "Early Jul – Jul 18, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Uttarakhand",
+        "state": "Uttarakhand",
+        "lat": 30.2,
+        "lon": 78.1
+      },
+      "intensity": 2,
+      "status": "unknown",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Environment · Local residents",
+      "summary": "Residents, environmental activists, Uttarakhand Kranti Dal members and students protested the felling of roughly 4,000 trees for a highway-widening project.",
+      "background": "Protesters say the felling would harm wildlife corridors and elephant habitat and cut forest cover. They marked a “Black Harela”.",
+      "status_text": "On Jul 18 Chief Minister Pushkar Singh Dhami halted felling at Saat Mod until a consensus is reached. The project itself has not been cancelled.",
+      "response": "NHAI and the PWD say the project follows legal and environmental procedures and includes elephant underpasses and wildlife culverts, designed with advice from the Forest Department, WWF-India and the Wildlife Institute of India.",
+      "sources": [
+        {
+          "title": "New Kerala",
+          "url": "https://www.newkerala.com/news/a/uttarakhand-cm-dhami-halts-tree-felling-dehraduns-saat-mod-113.htm"
+        },
+        {
+          "title": "ETV Bharat",
+          "url": "https://www.etvbharat.com/en/state/pwd-secretary-pankaj-pandey-stand-on-cutting-of-three-thousand-tree-on-bhaniawala-rishikesh-highway-enn26071104017"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "karjat-maharashtra-saidongar-tree-felling-2026-10",
+      "title": "Karjat, Maharashtra — Saidongar tree felling",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 2026 (ongoing)",
+      "scope": "local",
+      "location": {
+        "name": "Karjat, Maharashtra",
+        "state": "Maharashtra",
+        "lat": 18.91,
+        "lon": 73.33
+      },
+      "intensity": 2,
+      "status": "ongoing",
+      "groups": [
+        "environment",
+        "opposition"
+      ],
+      "topics": "Environment",
+      "summary": "Activists and opposition leaders oppose the felling of 32,490 trees in the Saidongar forest for a 3,000 MW pumped-storage power project.",
+      "background": "Critics say the felling of dense forest near the Bhimashankar Wildlife Sanctuary would cause serious biodiversity loss.",
+      "status_text": "The Forest Department granted permission on Oct 14. Activists from across Maharashtra reached Karjat on Oct 26. Aaditya Thackeray and Rohit Pawar have criticised the project, and the NGO NatConnect asked the environment ministry to review it.",
+      "response": "The project is proposed by Torrent Power, and the Forest Department has issued the felling permission. I have not found the company’s or government’s response.",
+      "sources": [
+        {
+          "title": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/mumbai/not-merely-tree-felling-but-end-of-an-ecosystem-aaditya-thackeray-rohit-pawar-oppose-cutting-of-32490-trees-for-karjat-power-project"
+        },
+        {
+          "title": "UNI",
+          "url": "https://www.uniindia.com/west-india/activists-protest-tree-felling-for-power-project/225917"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "bhiwandi-maharashtra-municipal-workers-march-2026-10",
+      "title": "Bhiwandi, Maharashtra — municipal workers’ march",
+      "start": "2026-10",
+      "end": "2026-10",
+      "date_label": "Oct 27, 2026",
+      "scope": "local",
+      "location": {
+        "name": "Bhiwandi, Maharashtra",
+        "state": "Maharashtra",
+        "lat": 19.3,
+        "lon": 73.06
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "workers"
+      ],
+      "topics": "Workers · Pay",
+      "summary": "Municipal workers from nine trade unions marched demanding a ₹25,000 Diwali bonus, pay commission arrears and reinstatement of removed employees.",
+      "background": "The Kamgar Ekikaran Mahasangh accuses the civic authorities (BNCMC) of ignoring long-standing grievances.",
+      "status_text": "Reported on Oct 27, 2026.",
+      "response": "I have not found the authorities’ response.",
+      "sources": [
+        {
+          "title": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/mumbai/bncmc-workers-from-nine-trade-unions-stage-blow-the-whistle-march-demand-25000-diwali-bonus-and-arrears"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "nationwide-general-strike-feb-12-2026-02",
+      "title": "Nationwide — general strike (Feb 12)",
+      "start": "2026-02",
+      "end": "2026-02",
+      "date_label": "Feb 12, 2026",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 21.15,
+        "lon": 79.09
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "workers"
+      ],
+      "topics": "Workers · Trade unions",
+      "summary": "A joint platform of ten central trade unions held a nationwide general strike against the labour codes and other economic policies.",
+      "background": "The unions, including CITU, AITUC, AICCTU and HMS, call the policies anti-labour. The AIKS, a farmers’ union, backed the strike.",
+      "status_text": "The unions and IndustriALL report about 300 million workers took part. That is the organisers’ figure and I have not seen it independently verified. The pin sits at the country’s centre because the strike was nationwide.",
+      "response": "I have not found the government’s response in what I read.",
+      "sources": [
+        {
+          "title": "IndustriALL",
+          "url": "https://www.industriall-union.org/india-300-million-workers-mobilize"
+        },
+        {
+          "title": "Business Standard",
+          "url": "https://www.business-standard.com/industry/news/trade-unions-hold-nationwide-strike-against-labour-codes-126021201629_1.html"
+        }
+      ],
+      "last_verified": "2026-11-01"
+    },
+    {
+      "id": "telangana-peasant-uprising-against-landlords-and-the-nizam-1947-08",
+      "title": "Telangana — peasant uprising against landlords and the Nizam",
+      "start": "1947-08",
+      "end": "1951-10",
+      "date_label": "1946–51 (post-independence phase from Aug 1947)",
+      "scope": "local",
+      "location": {
+        "name": "Nalgonda region",
+        "state": "Telangana",
+        "lat": 17.05,
+        "lon": 79.27
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "farmers",
+        "opposition"
+      ],
+      "topics": "Land · Peasants",
+      "summary": "A peasant uprising led by the Communist Party in Telangana, which began in 1946 against landlords and the Nizam’s rule, continued after independence as an armed struggle.",
+      "background": "Peasants demanded land redistribution and an end to forced labour and feudal levies in Hyderabad State.",
+      "status_text": "After the Indian Army’s action of September 1948 integrated Hyderabad into India, the communist-led struggle continued against the Indian state until it was called off in 1951.",
+      "response": "The Government of India said military action was needed to integrate Hyderabad and restore order. The communists said they were fighting for the peasants’ land rights.",
+      "sources": [
+        {
+          "title": "Wikipedia: Telangana Rebellion",
+          "url": "https://en.wikipedia.org/wiki/Telangana_Rebellion"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "madras-potti-sriramulus-fast-for-a-separate-andhra-state-1952-10",
+      "title": "Madras — Potti Sriramulu’s fast for a separate Andhra State",
+      "start": "1952-10",
+      "end": "1952-12",
+      "date_label": "Oct 19 – Dec 15, 1952",
+      "scope": "local",
+      "location": {
+        "name": "Chennai",
+        "state": "Tamil Nadu",
+        "lat": 13.08,
+        "lon": 80.27
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "civil"
+      ],
+      "topics": "Language · Statehood",
+      "summary": "Gandhian activist Potti Sriramulu fasted for a separate Telugu-speaking state. His death on Dec 15, 1952, after 58 days of fasting, set off violent protests in the Telugu-speaking districts.",
+      "background": "Telugu speakers in Madras State demanded a state of their own on linguistic lines.",
+      "status_text": "The Government of India announced the creation of Andhra State within days, and it was formed on Oct 1, 1953. His fast is seen as a trigger for the later linguistic reorganisation of states.",
+      "response": "The Central government under Prime Minister Nehru had been cautious about creating states on linguistic lines before the protests.",
+      "sources": [
+        {
+          "title": "Wikipedia: Potti Sreeramulu",
+          "url": "https://en.wikipedia.org/wiki/Potti_Sreeramulu"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "bombay-samyukta-maharashtra-movement-1955-11",
+      "title": "Bombay — Samyukta Maharashtra movement",
+      "start": "1955-11",
+      "end": "1960-05",
+      "date_label": "1955–60",
+      "scope": "local",
+      "location": {
+        "name": "Mumbai",
+        "state": "Maharashtra",
+        "lat": 18.97,
+        "lon": 72.83
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "civil",
+        "opposition"
+      ],
+      "topics": "Language · Statehood",
+      "summary": "A mass movement for a Marathi-speaking state that included Bombay city. Police firing on protesters in Bombay during the movement killed many people.",
+      "background": "Proposals for reorganising states left Bombay city outside a Marathi-speaking state or placed it in a bilingual state, which the movement opposed.",
+      "status_text": "The Bombay Reorganisation Act created the separate states of Maharashtra and Gujarat, with Bombay in Maharashtra, on May 1, 1960.",
+      "response": "Those arguing for a separate Gujarat disagreed about Bombay’s status. The Centre first proposed a bilingual state before agreeing to the split.",
+      "sources": [
+        {
+          "title": "Wikipedia: Samyukta Maharashtra Samiti",
+          "url": "https://en.wikipedia.org/wiki/Samyukta_Maharashtra_Samiti"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "tamil-nadu-anti-hindi-agitation-1965-01",
+      "title": "Tamil Nadu — anti-Hindi agitation",
+      "start": "1965-01",
+      "end": "1965-03",
+      "date_label": "Jan–Mar 1965",
+      "scope": "local",
+      "location": {
+        "name": "Madurai",
+        "state": "Tamil Nadu",
+        "lat": 9.92,
+        "lon": 78.12
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition"
+      ],
+      "topics": "Language",
+      "summary": "Students and the DMK opposition led protests in Tamil Nadu against the plan to make Hindi the sole official language of the Union from Jan 26, 1965. The protests turned violent, with police firing and many deaths.",
+      "background": "Tamil groups feared that making Hindi the only official language would disadvantage non-Hindi speakers in jobs and administration.",
+      "status_text": "The protests eased after Prime Minister Lal Bahadur Shastri gave assurances that English would continue as an official language. The Official Languages Act was amended in 1967 to guarantee this.",
+      "response": "The Government of India said the Constitution provided for Hindi as the official language, with English continuing for a transition period.",
+      "sources": [
+        {
+          "title": "Wikipedia: Anti-Hindi agitations of Tamil Nadu",
+          "url": "https://en.wikipedia.org/wiki/Anti-Hindi_agitations_of_Tamil_Nadu"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "west-bengal-naxalbari-peasant-uprising-1967-03",
+      "title": "West Bengal — Naxalbari peasant uprising",
+      "start": "1967-03",
+      "end": "1967-07",
+      "date_label": "Mar–Jul 1967",
+      "scope": "local",
+      "location": {
+        "name": "Naxalbari",
+        "state": "West Bengal",
+        "lat": 26.71,
+        "lon": 88.22
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "farmers"
+      ],
+      "topics": "Land · Peasants",
+      "summary": "A peasant uprising in Naxalbari in North Bengal, led by radical communists, over land and landlords’ control. Police firing in May 1967 killed several villagers, including women and children.",
+      "background": "Sharecroppers and tribal farmers demanded land and an end to landlord control.",
+      "status_text": "The uprising was put down within months, but it inspired the Naxalite movement that spread to other parts of India.",
+      "response": "The state government said it acted to restore law and order after violence against police.",
+      "sources": [
+        {
+          "title": "Wikipedia: Naxalbari uprising",
+          "url": "https://en.wikipedia.org/wiki/Naxalbari_uprising"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "uttarakhand-chipko-movement-1973-03",
+      "title": "Uttarakhand — Chipko movement",
+      "start": "1973-03",
+      "end": "1980-12",
+      "date_label": "1973 onward",
+      "scope": "local",
+      "location": {
+        "name": "Chamoli",
+        "state": "Uttarakhand",
+        "lat": 30.4,
+        "lon": 79.33
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Forests · Livelihood",
+      "summary": "Villagers, many of them women, in the Himalayan region of present-day Uttarakhand hugged trees to stop commercial felling.",
+      "background": "Residents depended on forests for fuel, fodder and livelihood and opposed contractors’ felling.",
+      "status_text": "The movement spread across the Himalayan region. In 1980 the Prime Minister announced a 15-year ban on green felling in the Himalayan forests of Uttar Pradesh.",
+      "response": "Forest officials and contractors said felling was lawful and provided employment and revenue.",
+      "sources": [
+        {
+          "title": "Wikipedia: Chipko movement",
+          "url": "https://en.wikipedia.org/wiki/Chipko_movement"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "gujarat-navnirman-andolan-1973-12",
+      "title": "Gujarat — Navnirman Andolan",
+      "start": "1973-12",
+      "end": "1974-03",
+      "date_label": "Dec 20, 1973 – Mar 16, 1974",
+      "scope": "local",
+      "location": {
+        "name": "Ahmedabad",
+        "state": "Gujarat",
+        "lat": 23.02,
+        "lon": 72.57
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "students",
+        "civil"
+      ],
+      "topics": "Prices · Corruption",
+      "summary": "A student and middle-class movement in Gujarat against rising prices and corruption. Reports give 108 deaths, about 310 injured and more than 8,000 arrests.",
+      "background": "It began over food and mess charges at colleges in Ahmedabad and grew into a demand for the Congress state government to go.",
+      "status_text": "Chief Minister Chimanbhai Patel resigned on Feb 9, 1974, and the assembly was dissolved on Mar 16, 1974, when President’s Rule was imposed. The Army was called in to Ahmedabad in January.",
+      "response": "The Congress state government faced charges of corruption and rejected the demand to quit until the protests became statewide.",
+      "sources": [
+        {
+          "title": "Wikipedia: Navnirman Andolan",
+          "url": "https://en.wikipedia.org/wiki/Navnirman_Andolan"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "bihar-jp-movement-and-total-revolution-1974-03",
+      "title": "Bihar — JP movement and ‘Total Revolution’",
+      "start": "1974-03",
+      "end": "1975-06",
+      "date_label": "Mar 1974 – Jun 1975",
+      "scope": "local",
+      "location": {
+        "name": "Patna",
+        "state": "Bihar",
+        "lat": 25.6,
+        "lon": 85.14
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition",
+        "civil"
+      ],
+      "topics": "Corruption · Governance",
+      "summary": "A student-led agitation in Bihar against corruption and unemployment, which Jayaprakash Narayan took over and widened into a national call for ‘Total Revolution’ against the Indira Gandhi government.",
+      "background": "Students marched on the Bihar assembly on Mar 18, 1974, and asked JP to lead them. About 1,600 agitators and 65 student leaders had been arrested by Jul 1, 1974.",
+      "status_text": "After a High Court verdict against the Prime Minister and a large rally on Jun 25, 1975, the government declared a national Emergency.",
+      "response": "The government described the agitation as a threat to law and order and an attempt to unseat an elected government.",
+      "sources": [
+        {
+          "title": "Wikipedia: Bihar Movement",
+          "url": "https://en.wikipedia.org/wiki/Bihar_Movement"
+        },
+        {
+          "title": "Wikipedia: Jayaprakash Narayan",
+          "url": "https://en.wikipedia.org/wiki/Jayaprakash_Narayan"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "nationwide-railway-workers-strike-1974-05",
+      "title": "Nationwide — railway workers’ strike",
+      "start": "1974-05",
+      "end": "1974-05",
+      "date_label": "May 1974",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 21.15,
+        "lon": 79.09
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "workers"
+      ],
+      "topics": "Pay · Working conditions",
+      "summary": "Railway workers across India struck work for about three weeks under a coordination committee led by George Fernandes, demanding better pay and working conditions.",
+      "background": "The unions sought higher pay, bonus and better working conditions for railway employees.",
+      "status_text": "The government arrested thousands of strikers and union leaders, and the strike was called off after about three weeks.",
+      "response": "The government said the strike was illegal and damaging to the economy.",
+      "sources": [
+        {
+          "title": "Wikipedia: George Fernandes",
+          "url": "https://en.wikipedia.org/wiki/George_Fernandes"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "nationwide-resistance-to-the-emergency-1975-06",
+      "title": "Nationwide — resistance to the Emergency",
+      "start": "1975-06",
+      "end": "1977-03",
+      "date_label": "Jun 1975 – Mar 1977",
+      "scope": "national",
+      "location": {
+        "name": "Nationwide",
+        "state": null,
+        "lat": 21.15,
+        "lon": 79.09
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "opposition",
+        "civil"
+      ],
+      "topics": "Civil liberties",
+      "summary": "Opposition leaders, students, journalists and activists resisted the Emergency declared by Prime Minister Indira Gandhi on Jun 25, 1975. Many thousands were detained and the press was censored.",
+      "background": "The Emergency suspended fundamental rights and allowed detention without trial.",
+      "status_text": "The Emergency was lifted in March 1977, and the ruling Congress lost the general election that followed.",
+      "response": "The government said the Emergency was needed to deal with internal disturbance and promoted a 20-point economic programme.",
+      "sources": [
+        {
+          "title": "Wikipedia: The Emergency (India)",
+          "url": "https://en.wikipedia.org/wiki/The_Emergency_(India)"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "kerala-save-silent-valley-campaign-1978-01",
+      "title": "Kerala — Save Silent Valley campaign",
+      "start": "1978-01",
+      "end": "1984-12",
+      "date_label": "Late 1970s – 1984",
+      "scope": "local",
+      "location": {
+        "name": "Silent Valley",
+        "state": "Kerala",
+        "lat": 11.08,
+        "lon": 76.43
+      },
+      "intensity": 1,
+      "status": "ended",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Forests · Dams",
+      "summary": "Scientists, writers and environmental groups campaigned against a proposed hydroelectric dam in Kerala’s Silent Valley rainforest.",
+      "background": "Campaigners said the dam would destroy a rare rainforest and its wildlife.",
+      "status_text": "The project was shelved and the area was later declared a national park.",
+      "response": "Supporters of the project said it would meet Kerala’s power needs and create jobs.",
+      "sources": [
+        {
+          "title": "Wikipedia: Silent Valley National Park",
+          "url": "https://en.wikipedia.org/wiki/Silent_Valley_National_Park"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "assam-assam-movement-1979-06",
+      "title": "Assam — Assam Movement",
+      "start": "1979-06",
+      "end": "1985-08",
+      "date_label": "1979–85",
+      "scope": "local",
+      "location": {
+        "name": "Guwahati",
+        "state": "Assam",
+        "lat": 26.14,
+        "lon": 91.74
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "students",
+        "civil"
+      ],
+      "topics": "Immigration · Identity",
+      "summary": "A six-year agitation led by the All Assam Students’ Union demanding detection and deportation of illegal immigrants and a revision of electoral rolls.",
+      "background": "Assamese groups feared that migration from Bangladesh was changing the state’s demography, culture and political balance.",
+      "status_text": "The agitation included strikes and blockades and serious violence, including the killings at Nellie in February 1983. It ended with the Assam Accord, signed on Aug 15, 1985, which set Mar 24, 1971 as the cut-off date.",
+      "response": "Supporters said it defended Assam’s identity and resources. Critics said some of its demands and the violence targeted Bengali-speaking residents, many of them Muslim.",
+      "sources": [
+        {
+          "title": "Wikipedia: Assam Movement",
+          "url": "https://en.wikipedia.org/wiki/Assam_Movement"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "narmada-valley-narmada-bachao-andolan-1985-01",
+      "title": "Narmada Valley — Narmada Bachao Andolan",
+      "start": "1985-01",
+      "end": "2000-10",
+      "date_label": "1985 onward (main phase to 2000)",
+      "scope": "local",
+      "location": {
+        "name": "Narmada Valley",
+        "state": "Madhya Pradesh",
+        "lat": 22.0,
+        "lon": 74.9
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Dams · Displacement",
+      "summary": "Villagers, activists and the Narmada Bachao Andolan, led by Medha Patkar, opposed the Sardar Sarovar dam over displacement and the cost to the environment.",
+      "background": "Campaigners said tens of thousands of people would be displaced and resettlement was inadequate.",
+      "status_text": "In October 2000 the Supreme Court allowed construction of the dam to proceed, with conditions on resettlement.",
+      "response": "The governments of Gujarat, Madhya Pradesh and the Centre said the dam would provide irrigation, drinking water and power and that resettlement packages were offered.",
+      "sources": [
+        {
+          "title": "Wikipedia: Narmada Bachao Andolan",
+          "url": "https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "new-delhi-boat-club-farmers-rally-1988-10",
+      "title": "New Delhi — Boat Club farmers’ rally",
+      "start": "1988-10",
+      "end": "1988-10",
+      "date_label": "Oct 1988",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.61,
+        "lon": 77.23
+      },
+      "intensity": 3,
+      "status": "ended",
+      "groups": [
+        "farmers"
+      ],
+      "topics": "Crop prices",
+      "summary": "Hundreds of thousands of farmers led by the Bharatiya Kisan Union and Mahendra Singh Tikait gathered at Delhi’s Boat Club, demanding better prices for their crops.",
+      "background": "Farmers sought higher sugarcane and wheat prices, and relief on electricity and water charges.",
+      "status_text": "The Rajiv Gandhi government agreed to several of the demands, and the farmers left.",
+      "response": "The government said it was addressing the farmers’ concerns through negotiations.",
+      "sources": [
+        {
+          "title": "Wikipedia: Mahendra Singh Tikait",
+          "url": "https://en.wikipedia.org/wiki/Mahendra_Singh_Tikait"
+        },
+        {
+          "title": "Wikipedia: Bharatiya Kisan Union",
+          "url": "https://en.wikipedia.org/wiki/Bharatiya_Kisan_Union"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "new-delhi-anti-mandal-agitation-1990-08",
+      "title": "New Delhi — anti-Mandal agitation",
+      "start": "1990-08",
+      "end": "1990-12",
+      "date_label": "Aug–Dec 1990",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.69,
+        "lon": 77.21
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students"
+      ],
+      "topics": "Reservation",
+      "summary": "Students, many from upper-caste backgrounds, protested the V.P. Singh government’s Aug 7, 1990 decision to implement 27% reservation for other backward classes in central government jobs. The protests included self-immolation attempts.",
+      "background": "Protesters said caste-based quotas would reduce opportunities based on merit.",
+      "status_text": "Counter-protests supported the reservation. In 1992 the Supreme Court upheld the 27% quota in the Indra Sawhney case, with conditions including exclusion of the ‘creamy layer’.",
+      "response": "The government said the quota was a step towards social justice for backward classes.",
+      "sources": [
+        {
+          "title": "Wikipedia: Mandal Commission",
+          "url": "https://en.wikipedia.org/wiki/Mandal_Commission"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "ayodhya-ram-janmabhoomi-mobilisation-and-the-babri-masjid-de-1990-09",
+      "title": "Ayodhya — Ram Janmabhoomi mobilisation and the Babri Masjid demolition",
+      "start": "1990-09",
+      "end": "1992-12",
+      "date_label": "1990–92",
+      "scope": "local",
+      "location": {
+        "name": "Ayodhya",
+        "state": "Uttar Pradesh",
+        "lat": 26.8,
+        "lon": 82.2
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "opposition",
+        "civil"
+      ],
+      "topics": "Religion · Politics",
+      "summary": "A campaign led by the BJP, the VHP and allied groups for a Ram temple at the disputed site in Ayodhya, including L.K. Advani’s Rath Yatra in 1990 and mass kar seva. On Dec 6, 1992 kar sevaks demolished the Babri Masjid.",
+      "background": "Supporters said the site was the birthplace of Lord Ram and that a temple stood there before the mosque.",
+      "status_text": "Police fired on kar sevaks in Ayodhya in October 1990. After the demolition, riots broke out in several cities. In 2019 the Supreme Court gave the disputed site for a Ram temple and directed that alternative land be given for a mosque.",
+      "response": "Muslim organisations and several political parties opposed the campaign and condemned the demolition.",
+      "sources": [
+        {
+          "title": "Wikipedia: Ayodhya dispute",
+          "url": "https://en.wikipedia.org/wiki/Ayodhya_dispute"
+        },
+        {
+          "title": "Wikipedia: Babri Masjid",
+          "url": "https://en.wikipedia.org/wiki/Babri_Masjid"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "imphal-protests-over-the-killing-of-thangjam-manorama-2004-07",
+      "title": "Imphal — protests over the killing of Thangjam Manorama",
+      "start": "2004-07",
+      "end": "2004-08",
+      "date_label": "Jul–Aug 2004",
+      "scope": "local",
+      "location": {
+        "name": "Imphal",
+        "state": "Manipur",
+        "lat": 24.82,
+        "lon": 93.94
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "civil"
+      ],
+      "topics": "Human rights · AFSPA",
+      "summary": "Women in Manipur protested after the killing of Thangjam Manorama in custody. Twelve women protested naked outside the Assam Rifles headquarters on Jul 15, 2004.",
+      "background": "Protesters demanded justice and the repeal of the Armed Forces (Special Powers) Act.",
+      "status_text": "The government withdrew the Act from the Imphal municipal area in August 2004 and set up a committee to review it. The Act remained in force elsewhere in the state.",
+      "response": "The Assam Rifles said she had been detained on suspicion of links with a banned militant group and was shot while trying to escape.",
+      "sources": [
+        {
+          "title": "Wikipedia: Thangjam Manorama",
+          "url": "https://en.wikipedia.org/wiki/Thangjam_Manorama"
+        },
+        {
+          "title": "Wikipedia: Armed Forces (Special Powers) Act",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_(Special_Powers)_Act"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "west-bengal-singur-and-nandigram-land-acquisition-protests-2006-12",
+      "title": "West Bengal — Singur and Nandigram land acquisition protests",
+      "start": "2006-12",
+      "end": "2008-10",
+      "date_label": "2006–08",
+      "scope": "local",
+      "location": {
+        "name": "Singur and Nandigram",
+        "state": "West Bengal",
+        "lat": 22.4,
+        "lon": 88.1
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "farmers",
+        "opposition"
+      ],
+      "topics": "Land acquisition",
+      "summary": "Farmers and opposition parties protested the acquisition of farmland for a car factory in Singur and a planned industrial hub in Nandigram. Police firing in Nandigram in March 2007 killed about 14 villagers.",
+      "background": "Farmers said the land was being taken without adequate consent or compensation.",
+      "status_text": "The Tata Nano plant was moved out of Singur in October 2008.",
+      "response": "The Left Front state government said industrialisation was needed for jobs and growth.",
+      "sources": [
+        {
+          "title": "Wikipedia: Nandigram violence",
+          "url": "https://en.wikipedia.org/wiki/Nandigram_violence"
+        },
+        {
+          "title": "Wikipedia: Singur Tata Nano controversy",
+          "url": "https://en.wikipedia.org/wiki/Singur_Tata_Nano_controversy"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "hyderabad-telangana-statehood-movement-2009-11",
+      "title": "Hyderabad — Telangana statehood movement",
+      "start": "2009-11",
+      "end": "2014-06",
+      "date_label": "Nov 2009 – Jun 2014",
+      "scope": "local",
+      "location": {
+        "name": "Hyderabad",
+        "state": "Telangana",
+        "lat": 17.38,
+        "lon": 78.48
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "civil",
+        "students",
+        "opposition"
+      ],
+      "topics": "Statehood",
+      "summary": "A movement for a separate Telangana state, with fasts, strikes and student agitations.",
+      "background": "Supporters said the region had been neglected within Andhra Pradesh in jobs, water and funds.",
+      "status_text": "A fast by K. Chandrashekar Rao in November 2009 led the Centre to announce the process on Dec 9, 2009. It was paused after counter-protests. Parliament passed the reorganisation law in February 2014 and Telangana was formed on Jun 2, 2014.",
+      "response": "Opponents in the Andhra and Rayalaseema regions held their own protests against dividing the state.",
+      "sources": [
+        {
+          "title": "Wikipedia: Telangana movement",
+          "url": "https://en.wikipedia.org/wiki/Telangana_movement"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "new-delhi-india-against-corruption-movement-2011-04",
+      "title": "New Delhi — India Against Corruption movement",
+      "start": "2011-04",
+      "end": "2011-12",
+      "date_label": "Apr–Dec 2011",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.63,
+        "lon": 77.21
+      },
+      "intensity": 2,
+      "status": "ended",
+      "groups": [
+        "civil"
+      ],
+      "topics": "Corruption",
+      "summary": "A movement led by Anna Hazare demanding a strong Lokpal anti-corruption law, with fasts at Jantar Mantar in April and at Ramlila Maidan in August 2011.",
+      "background": "Protesters wanted an independent anti-corruption ombudsman that could investigate top officials.",
+      "status_text": "Hazare was briefly detained on Aug 16, 2011. Parliament later adopted a resolution on key demands, and the Lokpal and Lokayuktas Act was passed in December 2013.",
+      "response": "The UPA government said Parliament must decide the law. Some critics said the movement’s methods bypassed elected institutions.",
+      "sources": [
+        {
+          "title": "Wikipedia: India Against Corruption",
+          "url": "https://en.wikipedia.org/wiki/India_Against_Corruption"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "new-delhi-protests-after-the-2012-delhi-gang-rape-2012-12",
+      "title": "New Delhi — protests after the 2012 Delhi gang rape",
+      "start": "2012-12",
+      "end": "2013-01",
+      "date_label": "Dec 2012 – Jan 2013",
+      "scope": "local",
+      "location": {
+        "name": "New Delhi",
+        "state": "Delhi",
+        "lat": 28.62,
+        "lon": 77.2
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "civil"
+      ],
+      "topics": "Women’s safety",
+      "summary": "Large crowds protested in Delhi after a young woman was gang-raped on a bus on Dec 16, 2012 and later died.",
+      "background": "Protesters demanded better safety for women and stricter laws and policing.",
+      "status_text": "Police used water cannon and tear gas to disperse crowds near the President’s residence. The government set up the Justice Verma Committee and passed the Criminal Law (Amendment) Act, 2013.",
+      "response": "Delhi Police said it acted to restore order and prevent crowds from reaching sensitive areas.",
+      "sources": [
+        {
+          "title": "Wikipedia: 2012 Delhi gang rape",
+          "url": "https://en.wikipedia.org/wiki/2012_Delhi_gang_rape"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "chennai-jallikattu-protests-2017-01",
+      "title": "Chennai — Jallikattu protests",
+      "start": "2017-01",
+      "end": "2017-01",
+      "date_label": "Jan 2017",
+      "scope": "local",
+      "location": {
+        "name": "Chennai",
+        "state": "Tamil Nadu",
+        "lat": 13.05,
+        "lon": 80.28
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "students",
+        "civil"
+      ],
+      "topics": "Culture · Animal sports",
+      "summary": "Large crowds, mostly young people, gathered at Chennai’s Marina Beach and elsewhere in Tamil Nadu demanding the lifting of the ban on jallikattu bull-taming.",
+      "background": "Protesters said jallikattu is a Tamil cultural tradition and said the ban was unfair.",
+      "status_text": "The state issued an ordinance and passed an amendment in January 2017. The protests ended after police cleared Marina Beach on Jan 23, with clashes and arson reported.",
+      "response": "Animal-rights groups and the Supreme Court, which had banned jallikattu in 2014, said the sport was cruel to bulls.",
+      "sources": [
+        {
+          "title": "Wikipedia: Jallikattu",
+          "url": "https://en.wikipedia.org/wiki/Jallikattu"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "thoothukudi-protests-against-the-sterlite-copper-plant-2018-02",
+      "title": "Thoothukudi — protests against the Sterlite copper plant",
+      "start": "2018-02",
+      "end": "2018-05",
+      "date_label": "Feb–May 2018",
+      "scope": "local",
+      "location": {
+        "name": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "lat": 8.76,
+        "lon": 78.13
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "environment",
+        "civil"
+      ],
+      "topics": "Pollution",
+      "summary": "Residents protested against the Sterlite copper smelter, saying it caused pollution. Police firing on May 22, 2018 killed 13 people.",
+      "background": "Protesters blamed the plant for air and water pollution and health problems.",
+      "status_text": "The Tamil Nadu government ordered the plant closed on May 28, 2018. The Madras High Court upheld the closure in 2020.",
+      "response": "Vedanta, the plant’s owner, said it operated within the law. Police said the crowd turned violent and they fired in response. A judicial commission later reportedly found fault with the police action.",
+      "sources": [
+        {
+          "title": "Wikipedia: Sterlite Copper",
+          "url": "https://en.wikipedia.org/wiki/Sterlite_Copper"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "new-delhi-caa-and-nrc-protests-and-shaheen-bagh-2019-12",
+      "title": "New Delhi — CAA and NRC protests and Shaheen Bagh",
+      "start": "2019-12",
+      "end": "2020-03",
+      "date_label": "Dec 2019 – Mar 2020",
+      "scope": "national",
+      "location": {
+        "name": "Shaheen Bagh",
+        "state": "Delhi",
+        "lat": 28.55,
+        "lon": 77.31
+      },
+      "intensity": 5,
+      "status": "ended",
+      "groups": [
+        "students",
+        "opposition",
+        "civil",
+        "ruling"
+      ],
+      "topics": "Citizenship",
+      "summary": "Protests across India against the Citizenship (Amendment) Act and a proposed national register of citizens. Women led a long sit-in at Shaheen Bagh in Delhi. Pro-CAA rallies were also held.",
+      "background": "Critics said the Act discriminates on the basis of religion and could be paired with a register to target Muslims.",
+      "status_text": "Police action at Jamia Millia Islamia on Dec 15, 2019 sparked student protests. The Shaheen Bagh sit-in was cleared in March 2020 during the COVID-19 lockdown. Communal violence in north-east Delhi in February 2020 killed more than 50 people.",
+      "response": "The Government said the Act gives fast-track citizenship to persecuted minorities from Afghanistan, Bangladesh and Pakistan and does not take away any Indian citizen’s rights.",
+      "sources": [
+        {
+          "title": "Wikipedia: Shaheen Bagh protest",
+          "url": "https://en.wikipedia.org/wiki/Shaheen_Bagh_protest"
+        },
+        {
+          "title": "Wikipedia: Citizenship (Amendment) Act, 2019",
+          "url": "https://en.wikipedia.org/wiki/Citizenship_(Amendment)_Act,_2019"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    },
+    {
+      "id": "delhi-borders-202021-farmers-protest-2020-09",
+      "title": "Delhi borders — 2020–21 farmers’ protest",
+      "start": "2020-09",
+      "end": "2021-12",
+      "date_label": "Sep 2020 – Dec 2021",
+      "scope": "local",
+      "location": {
+        "name": "Delhi borders",
+        "state": "Delhi",
+        "lat": 28.87,
+        "lon": 77.1
+      },
+      "intensity": 4,
+      "status": "ended",
+      "groups": [
+        "farmers",
+        "opposition"
+      ],
+      "topics": "Farm laws",
+      "summary": "Farmers, mainly from Punjab, Haryana and western Uttar Pradesh, protested against three farm laws, camping at Delhi’s borders for more than a year.",
+      "background": "Farmer unions said the laws would weaken the minimum support price system and expose farmers to corporate buyers.",
+      "status_text": "Police used water cannon and tear gas as farmers marched to Delhi in November 2020, and violence broke out during a tractor rally on Jan 26, 2021. Parliament repealed the laws in November 2021, and the unions suspended the protest in December.",
+      "response": "The Government said the laws would give farmers more market choices, and held 11 rounds of talks. The Supreme Court stayed the laws in January 2021.",
+      "sources": [
+        {
+          "title": "Wikipedia: 2020–2021 Indian farmers’ protest",
+          "url": "https://en.wikipedia.org/wiki/2020%E2%80%932021_Indian_farmers%27_protest"
+        }
+      ],
+      "last_verified": "2026-11-01",
+      "needs_review": true
+    }
+  ]
+}
